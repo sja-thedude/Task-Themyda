@@ -16,14 +16,16 @@
 }
 
 .walletbtn{
+    margin-top: 10px;
+    padding: 10px;
     display: flex;
     flex-direction: row;
     background-color: rgba(48, 50, 55, 1);
     width: 70%;
     text-align: center;
-        justify-content: center;
-        align-items: center;
-        border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
 }
 
 .sendbtn{
@@ -31,10 +33,11 @@
  display: flex;
  flex-direction: row;
  width: 70%;
-   text-align: center;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
+text-align: center;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+padding: 10px;
 }
 
 .mainimg {
