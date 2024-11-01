@@ -1,0 +1,154 @@
+/* Group - 1 / 1 → compressed_SATOSHI_-_Spor.png */
+
+.text {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.followbtn {
+    background-color: rgba(48, 50, 55, 1);
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 5px 40px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    padding: 10px;
+}
+
+.align {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding: 10px;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+.profile1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-right: 300px;
+}
+
+.name {
+    margin-left: 10px;
+}
+
+.tick{ 
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.getbtn {
+    background-color: #ffffff;
+    color:#000000;
+    border-radius: 5px;
+    padding: 15px;
+    width: 100%;
+    
+    font-size: 16px;
+}
+
+.getbtn1 {
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 5px;
+    padding: 15px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.sp{
+    padding: 10px;
+}
+
+.gettickets{
+    background-color: rgba(117, 117, 117, 0.83);
+    border-radius: 10px;
+    margin: 25px;
+
+}
+.titlegettickets{
+    background-color: rgba(255, 255, 255, 0.08);
+        color: #ffffff;
+        border-radius: 5px;
+        margin: 20px;
+        padding: 20px;
+        color: #ffffff;
+}
+
+.ticket1{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(48, 50, 55, 1);
+    justify-content: space-between;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.ticket2,
+.ticket3 {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.08);
+    justify-content: space-between;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.incredecre{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.h1 {
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.join{
+    display:flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.desc {
+    margin: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.read{
+    color: rgba(55, 111, 255, 1);
+}
+
+.sharebtn{
+    color: rgba(55, 111, 255, 1);
+    border-color: rgba(48, 50, 55, 0.2);
+    border-radius: 10px;
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-size: 26px;
+}
+
+.btmbtns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}

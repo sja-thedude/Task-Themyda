@@ -1,0 +1,42 @@
+.main{
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns{
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+}
+
+.walletbtn{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(48, 50, 55, 1);
+    width: 70%;
+    text-align: center;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+}
+
+.sendbtn{
+ background-color: rgba(48, 50, 55, 1);
+ display: flex;
+ flex-direction: row;
+ width: 70%;
+   text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.p{
+    margin: 10px;
+    font-size: 18px;
+}
