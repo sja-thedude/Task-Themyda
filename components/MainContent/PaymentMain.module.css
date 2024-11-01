@@ -1,0 +1,94 @@
+.main{
+    background-color: #fff;
+    color: black;
+    width: 100%;
+    height: 100%;
+    padding-top: 10%;
+}
+
+.paymenttick{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+}
+
+.info{
+    margin: 10px;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.applepay{
+    padding: 10px;
+    margin-left: 10%;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 80%;
+    background-color: black;
+    justify-content: center;
+    display: flex;
+}
+
+.cardpay {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 80%;
+    border: 1px solid rgba(103, 103, 103, 1);
+    color: rgba(55, 111, 255, 1);
+}
+
+.tick1row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.coucher {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgba(79, 85, 241, 1);
+}
+
+.smfont{
+ color: rgba(103, 103, 103, 1);
+ font-size: 14px;
+}
+
+.fontbold {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btbtn{
+    text-align: center;
+}
+
+.bdhead{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+}
+
+.parafont{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    color: rgba(103, 103, 103, 1);
+
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}

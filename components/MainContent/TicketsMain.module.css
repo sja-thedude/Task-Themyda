@@ -1,0 +1,104 @@
+.main{
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.qrcod{
+    background-color: rgba(48, 50, 55, 1);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+
+.mainimg {
+    position: relative;
+    width: 90%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    margin: 5%;
+}
+
+.maincontent {
+    position: absolute;
+    top: 0;
+    left: 5px;
+    width: 100%;
+    height: 95%;
+    color: #fff;
+    text-align: left;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+}
+
+
+/* .qrcod {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #333;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+} */
+
+.maintext{
+    padding: 10px;
+    padding-left: 10%;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Optional styling for the zigzag image */
+.zigzag {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.btmtext{
+    padding: 5%;
+    padding-left: 10%;
+    padding-top: 20%;
+}
+
+.h2title{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+.actual {
+    font-size: 15px;
+}
+
+.size22 {
+    font-size: 22px;
+}
+
+.size15 {
+    padding-top: 10px;
+    font-size: 15px;
+}
