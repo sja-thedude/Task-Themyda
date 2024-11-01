@@ -3,11 +3,11 @@ import styles from './InfoSection.module.css';
 
 export default function InfoSection() {
     const handleButtonClick = () => {
-    window.location.href = '/payment'; // Redirect to the Get Tickets page
+    window.location.href = '/payment';
     };
     
   return (
-      <section>
+      <section className={styles.main}>
         <div className={styles.container}>
             <Image
                 src="/Images/first.jpeg"
@@ -70,17 +70,14 @@ export default function InfoSection() {
                           <h6>Get Tickets</h6>
                       </div>
                       <div className={styles.tick}>
-                          <div className='info-gettickets'>
+                          <div className={styles.infogettickets}>
                           <p>Welcome! Please choose your desired ticket type:</p>
                           </div>
                           <div className='ticket-options'>
                               <div className={styles.ticket1}>
                                   <div>
-                                      <p>Early Bird</p>
+                                      <div className={styles.coltc1}><p>Early Bird</p><p className={styles.left}>4 left</p></div>
                                         <p>€55.00</p>
-                                  </div>
-                                  <div>
-                                        <p>4 left</p>
                                   </div>
                                   <div className={styles.incredecre}>
                                 <Image
@@ -116,12 +113,9 @@ export default function InfoSection() {
                               </div>
                               <div className={styles.ticket3}>
                                   <div>
-                                      <p>Bizum</p>
+                                      <div className={styles.coltc3}><p>Bizum</p><p className={styles.req}>Require Approval</p></div>
                                       <p>Free</p>
                                       <p>Bizum payment</p>
-                                  </div>
-                                  <div>
-                                        <p>Require Approval</p>
                                   </div>
                                   <div>
                                       <Image
@@ -169,9 +163,9 @@ export default function InfoSection() {
                     />
                     </button>
                 <button className={styles.getbtn1} type='button' onClick={handleButtonClick}>
-            Get Ticket
-          </button>
-              </div>
+                    Get Ticket
+                </button>
+                    </div>
         </div>
     </section>
   );

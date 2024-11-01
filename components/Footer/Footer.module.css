@@ -2,7 +2,7 @@
 .footer {
     background-color: #ffffff;
     padding: 15px;
-    /* padding-left: 100px; */
+    padding-left: 10%;
     align-items: center;
     color: rgba(110, 112, 115, 1);
     display: grid;

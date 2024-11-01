@@ -3,9 +3,7 @@ import Footer from '../components/Footer/Footer';
 import QrMain from '../components/MainContent/QrMain';
 export default function QR() {
 
-    
-
-  return (
+    return (
     <div>
       <TicketsHeader2/>
       <QrMain/>

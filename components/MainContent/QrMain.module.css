@@ -6,6 +6,7 @@
     text-align: center;
     justify-content: center;
     align-items: center;
+    padding-top: 10%;
 }
 
 .btns{
@@ -36,7 +37,210 @@
     border-radius: 10px;
 }
 
+.mainimg {
+    position: relative;
+    width: 90%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    margin: 5%;
+    ;
+
+}
+
+.maincontent {
+    position: absolute;
+    top: 0;
+    left: 2px;
+    width: 100%;
+    height: 90% !important ;
+    color: #fff;
+    text-align: left;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+    /* Ensures maincontent appears above mainimg */
+    /* background-color: rgba(56, 53, 75, 1); */
+    /* Optional semi-transparent overlay */
+}
+
+.maintext {
+    padding: 5px;
+    padding-left: 5%;
+}
+
+.title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.size22 {
+    font-size: 17px;
+}
+
+.size15 {
+    padding-top: 5px;
+    font-size: 10px;
+}
+
+.col{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+}
+
 .p{
-    margin: 10px;
-    font-size: 18px;
+    text-align: center;
+    font-size: 16px;
+    padding-bottom: 2%;
+    padding-left: 10%;
+    width: 92%;
+    justify-content: center;
+}
+
+.sp{
+    padding: 5%;
+    justify-content: center;
+}
+
+.zigzag {
+    width: 100%;
+    padding-bottom: 5%;
+}
+
+@media (min-width: 560px) {
+.maincontent {
+        position: absolute;
+        top: 0;
+        left: 2px;
+        width: 100%;
+        height: 150% !important;
+        color: #fff;
+        text-align: left;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 520px) {
+    .maincontent {
+        position: absolute;
+        top: 0;
+        left: 2px;
+        width: 100%;
+        height: 75% !important;
+        color: #fff;
+        text-align: left;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 490px) {
+    .maincontent {
+        position: absolute;
+        top: 0;
+        left: 2px;
+        width: 100%;
+        height: 72% !important;
+        color: #fff;
+        text-align: left;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (mmin-width: 470px) {
+    .maincontent {
+        position: absolute;
+        top: 0;
+        left: 2px;
+        width: 100%;
+        height: 70%;
+        color: #fff;
+        text-align: left;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 430px) {
+    .maincontent {
+        position: absolute;
+        top: 0;
+        left: 2px;
+        width: 100%;
+        height: 66%;
+        color: #fff;
+        text-align: left;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }      
+}
+
+@media (min-width: 410px) {
+    .maincontent {
+        position: absolute;
+        top: 0;
+        left: 2px;
+        width: 100%;
+        height: 66% !important;
+        color: #fff;
+        text-align: left;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 395px) {
+    .maincontent {
+        position: absolute;
+        top: 0;
+        left: 2px;
+        width: 100%;
+        height: 62%;
+        color: #fff;
+        text-align: left;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 385px) {
+    .maincontent {
+        position: absolute;
+        top: 0;
+        left: 2px;
+        width: 100%;
+        height: 88% !important;
+        color: #fff;
+        text-align: left;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
